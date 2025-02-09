@@ -22,4 +22,22 @@ This project applies **machine learning techniques** to analyze **motor activity
 **Evaluate model performance** (Accuracy, Precision, Recall, F1-score, ROC-AUC)  
 
 ---
+## **🧠Machine Learning Approach**
+**The following supervised learning models will be tested:**
+**Logistic Regression**
+**Random Forest**
+**Support Vector Machine (SVM)**
+**Neural Networks (MLP)**
+**Feature selection techniques will be used to optimize performance.**
 
+---
+## **📊 Results & Performance Metrics**
+**After training the models, their performance will be assessed using:**
+**Accuracy**
+**Precision & Recall**
+**F1-score**
+**ROC-AUC Curve**
+**Confusion Matrix Analysis**
+---
+## **Project Status:**
+**I have just started the initial phase of this project. This is a three-month final year project, and I will update the repository with code files and progress as I start implementing the machine learning models. The repository will be regularly updated with data preprocessing, feature engineering, model training, and evaluation scripts over the course of the project.**
