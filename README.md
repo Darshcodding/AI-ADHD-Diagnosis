@@ -40,4 +40,6 @@ This project applies **machine learning techniques** to analyze **motor activity
 **Confusion Matrix Analysis**
 ---
 ## **Project Status:**
-**I have just started the initial phase of this project. This is a three-month final year project, and I will update the repository with code files and progress as I start implementing the machine learning models. The repository will be regularly updated with data preprocessing, feature engineering, model training, and evaluation scripts over the course of the project.**
+**Cleaning and Restructuring CPT Test Data**
+**I processed and transformed CPT test data to prepare it for analysis. The dataset was initially in a wide format with multiple trial and response columns. I first loaded the CSV file into a Pandas DataFrame and renamed columns for consistency. Then, I classified the columns into summary-level data and trial-level data. Using Pandas’ melt() function, I reshaped the trial and response data into a long format, where each row represents a single trial-response pair. I then merged this transformed data with participant-level summary metrics to create a structured dataset. Finally, I handled missing values, converted data types, and performed basic validation to ensure the dataset was ready for analysis. This cleaned and structured format makes it easier to perform statistical analysis and visualization on the CPT test results.**
+**All of this process has been implemented in the adhd_w1.ipynb file.**
