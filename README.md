@@ -43,3 +43,6 @@ This project applies **machine learning techniques** to analyze **motor activity
 **Cleaning and Restructuring CPT Test Data**
 **I processed and transformed CPT test data to prepare it for analysis. The dataset was initially in a wide format with multiple trial and response columns. I first loaded the CSV file into a Pandas DataFrame and renamed columns for consistency. Then, I classified the columns into summary-level data and trial-level data. Using Pandas’ melt() function, I reshaped the trial and response data into a long format, where each row represents a single trial-response pair. I then merged this transformed data with participant-level summary metrics to create a structured dataset. Finally, I handled missing values, converted data types, and performed basic validation to ensure the dataset was ready for analysis. This cleaned and structured format makes it easier to perform statistical analysis and visualization on the CPT test results.**
 **All of this process has been implemented in the adhd_w1.ipynb file.**
+
+Status update : I have completed the EDA process as well and uploaded the eda coding file(this was done on long back ago but I didn't update the status in this notice)
+ 
