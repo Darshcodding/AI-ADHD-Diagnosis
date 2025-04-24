@@ -40,11 +40,11 @@ This project applies **machine learning techniques** to analyze **motor activity
 **Confusion Matrix Analysis**
 ---
 ## **Project Status:**
-**Cleaning and Restructuring CPT Test Data on Feb 22nd 2025**
+**1) Cleaning and Restructuring CPT Test Data on (Feb 22nd 2025)**
 **I processed and transformed CPT test data to prepare it for analysis. The dataset was initially in a wide format with multiple trial and response columns. I first loaded the CSV file into a Pandas DataFrame and renamed columns for consistency. Then, I classified the columns into summary-level data and trial-level data. Using Pandas’ melt() function, I reshaped the trial and response data into a long format, where each row represents a single trial-response pair. I then merged this transformed data with participant-level summary metrics to create a structured dataset. Finally, I handled missing values, converted data types, and performed basic validation to ensure the dataset was ready for analysis. This cleaned and structured format makes it easier to perform statistical analysis and visualization on the CPT test results.**
 ****All of this process has been implemented in the adhd_w1.ipynb file.****
 
-**Status update on (March 24th 2025): I have completed the EDA process as well and uploaded the eda coding file In this file I have done the analysis of Distribution of ADHD Diagnosis to see the count of the people who have and don't have ADHD. And then there is the Raw Score HitRT analysis in a box plot.**
+**2) Status update on (March 24th 2025): I have completed the EDA process as well and uploaded the eda coding file In this file I have done the analysis of Distribution of ADHD Diagnosis to see the count of the people who have and don't have ADHD. And then there is the Raw Score HitRT analysis in a box plot.**
 **And then there is a bar chart of Top 15 Important features score where it shows which will be the best feature to make as a target variable. At last I have trained and evaluated 3 models ie., **XGBoost, LightGBM, Gaussian Naive Bayes** it has the results of all the metrics and a confusion matrics.**
 
  
